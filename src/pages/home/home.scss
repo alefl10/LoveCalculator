@@ -1,5 +1,53 @@
-page-home {
-  div{
+/*page-home {
+  button{
     text-align:center;
   }
 }
+
+
+
+
+
+
+
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Love Calculator
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Name 1</ion-label>
+      <ion-input type="text" [(ngModel)]="name1"></ion-input>
+      <ion-icon color="primary" name="contact" item-right></ion-icon>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Name 2</ion-label>
+      <ion-input type="text" [(ngModel)]="name2"></ion-input>
+      <ion-icon color="primary" name="contact" item-right></ion-icon>
+    </ion-item>
+  </ion-list>
+
+  <ion-card text-center>
+
+      {{ name1 || '???' }}
+      <ion-icon name="heart" color="danger"></ion-icon>
+      {{ name2 || '???' }}
+
+      <ion-card-content class="score">
+        {{ score }}%
+      </ion-card-content>
+
+  </ion-card>
+
+</ion-content>
+
+
+
+*/
